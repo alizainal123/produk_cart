@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Nike</title>
+  <style>
+    body {
+    background-color: #4A90E2; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(35deg, rgb(6, 0, 151) 0%, rgb(130, 4, 255) 73%, rgb(193, 15, 255) 100%);
+    font-family: Arial, sans-serif;
+}
+
+.product-card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 350px;
+    overflow: hidden;
+}
+
+.image-container {
+    background-color: #2e42d4; 
+    padding: 90px 20px 20px; 
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.image-container img {
+    height: 180px;
+}
+
+.product-details {
+    background-color: #FFFFFF;
+    padding: 40px 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.product-info {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.product-name {
+    font-size: 1.2em;
+}
+
+.product-price {
+    font-size: 1.5em;
+    color: #E63946; 
+    font-weight: 400; 
+}
+
+.product-description {
+    font-size: 0.9em;
+    color: #666;
+    margin: 0px 10px 40px; 
+    text-align: center; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 20px 20px;                
+    gap: 10px;
+}
+
+button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px; 
+    cursor: pointer;
+    font-size: 1em;
+    width: 48%;
+    color: #FFFFFF;
+    font-weight: bold; 
+}
+
+.buy-now {
+    background-color: #FF0000;
+}
+
+.add-to-cart {
+    background-color: #0000FF; 
+}
+
+  </style>
+     
+</head>
+<body>
+    <div class="product-card">
+        <div class="image-container">
+            <img src="sepatu2-removebg-preview.png " alt="Nike Shoes">
+        </div>
+        <div class="product-details">
+            <div class="product-info">
+                <div class="product-name">Nike X Tiffany</div>
+            </div>
+            <div class="product-price">$99.99</div>
+        </div>
+        <div class="product-description">
+            Ya, baru-baru ini raksasa produk olahraga Nike dan produsen perhiasan mewah Tiffany & Co
+        </div>
+        <div class="buttons">
+            <button class="buy-now">Buy now</button>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+</body>
+</html>
